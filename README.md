@@ -38,29 +38,22 @@ conversion-rate-project3/
 │   └── index.md
 ├── requirements.txt
 └── README.md
-🚀 Quick start
+```
+## Quick start
 bash
 Copy
 Edit
-# 1️⃣ clone + install
-git clone https://github.com/<user>/conversion-rate-project3.git
-cd conversion-rate-project3
+# 1. clone + install
+git clone https://github.com/ellajquan/User-Conversion-Rate-Analysis.git
+cd User-Conversion-Rate-Analysis
 pip install -r requirements.txt     # or: conda env create -f env.yml
 
-# 2️⃣ clean & feature-engineer
+# 2. clean & feature-engineer
 python src/prepare_data.py          # outputs data/processed.csv
 
-# 3️⃣ train model
+# 3. train model
 python src/train_rf.py              # writes models/random_forest.pkl
 
-# 4️⃣ view report
+# 4. view report
 open docs/index.html                # or visit the GitHub Page URL
-📊 Results (example numbers)
-
-Metric	Train	Test
-Accuracy	0.87	0.84
-ROC-AUC	0.93	0.90
-Top 5 features	avg_session_time, pages_viewed, age, recent_purchase, mobile_os	
-Users in the 90ᵗʰ-percentile propensity bucket exhibit a 3× higher conversion rate; ideal for retargeting ads.
-
 
