@@ -27,7 +27,6 @@ Analyse user-level data, understand drivers of conversion, and build a Random-Fo
 
 ```text
 conversion-rate-project3/
-├── data/                 # raw & processed CSVs (git-ignored large files)
 ├── notebooks/
 │   ├── 01_eda.ipynb      # descriptive analysis, plots
 │   └── 02_model.ipynb    # random-forest build & evaluation
