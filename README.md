@@ -7,7 +7,8 @@ Analyse user-level data, understand drivers of conversion, and build a Random-Fo
 3. Top indicators of high / low conversion?  
 4. How does a segment with the *highest* propensity behave?  
 5. Who should we target in a new marketing campaign?  
-6. Model choice, implementation, and evaluation.  
+6. Model choice, implementation, and evaluation. 
+
 7. Post-model actions – how do we *raise* conversion using the insights?
 
 ---
@@ -38,6 +39,8 @@ conversion-rate-project3/
 ├── requirements.txt
 └── README.md
 ```
+[tree_conversion.pdf](https://github.com/user-attachments/files/19967535/tree_conversion.pdf)
+
 ## Quick start
 bash
 Copy
